@@ -1,0 +1,52 @@
+.fundo-cinza{
+    background-color: #333333;
+}
+
+.topo{
+    padding: 20px;
+    color: #d1d1d1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.letra-logo{
+    color: rgb(146, 205, 251);
+}
+
+.topo-fluido{
+    border-top: 1px solid #4e4e4e;
+}
+
+.menu{
+    display: flex;
+    gap: 5px;
+}
+
+.menu li{
+    flex-grow: 1;
+   list-style: none;
+   /*border: 1px solid white;*/ 
+   text-align: center;
+}
+
+.menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+.menu li a:hover{
+background-color: rgb(102, 179, 238);
+color: black;
+transition: 0.5s;
+}
+
+.conteudo{
+    height: 400px;
+}
+
+.rodape{
+    color: white;
+}
